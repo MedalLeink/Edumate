@@ -1,0 +1,91 @@
+.contact {
+  font-family: "Poppins", sans-serif;
+  margin-top: 5%;
+}
+
+.contact_content .text {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.writeup {
+  display: flex;
+  height: 65px;
+  align-items: center;
+  margin-left: 10%;
+  margin-bottom: 20px;
+}
+
+.contact_content .left .icons {
+  margin: 10px 0;
+}
+
+.writeup .info {
+  margin-left: 30px;
+}
+
+.icon {
+  color: #261762;
+  font-size: 25px;
+}
+
+.contact .contact_content .info .head {
+  font-weight: 600;
+  color: #a9eded;
+}
+
+.contact .contact_content .info .sub_title {
+  color: #333;
+}
+.contact .contactForm {
+  padding: 40px;
+}
+.contact .contactForm h2 {
+  font-size: 30px;
+  color: #333;
+  font-weight: 500;
+}
+.contact .contactForm .inputBox {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+.contact .contactForm .inputBox input,
+.contact .contactForm .inputBox textarea {
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+}
+.contact .contactForm .inputBox span {
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #666;
+}
+.contact .contactForm .inputBox input:focus ~ span,
+.contact .contactForm .inputBox input:valid ~ span,
+.contact .contactForm .inputBox textarea:focus ~ span,
+.contact .contactForm .inputBox textarea:valid ~ span {
+  color: #e91e63;
+  font-size: 12px;
+  transform: translateY(-20px);
+}
+.contact .contactForm .btn {
+  background: #261762;
+  color: #a9eded;
+  transition: all 0.3s ease;
+}
+.contact .contactForm .btn:hover {
+  background: transparent;
+  color: #261762;
+}

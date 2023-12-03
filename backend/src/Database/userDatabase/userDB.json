@@ -1,0 +1,24 @@
+[
+  {
+    "id": "b7f3f7d8-2533-414b-8c2a-030847bcf257",
+    "firstName": "Abn",
+    "lastName": "Nda",
+    "email": "abn4reel@gmail.com",
+    "password": "$2a$10$D39mg2dZFfduxcX3qxZsQOsXoi70SzbzUcikr17ZHZLgVR0.p7Lna",
+    "level": "100",
+    "role": "teacher",
+    "createdAt": "2023-11-15T22:33:25.399Z",
+    "updatedAt": "2023-11-15T22:33:25.399Z"
+  },
+  {
+    "id": "6898589e-831e-4c00-bcf5-6021ee30f403",
+    "firstName": "Nkiru Madeleine",
+    "lastName": "Anagha",
+    "email": "madeleinenkiru@gmail.com",
+    "password": "$2a$10$yck5tEvGrSMTdQkh0WTEJuleIfrdy5R7ra2kr.5TmkN10owUk8Hc.",
+    "level": "100",
+    "role": "teacher",
+    "createdAt": "2023-11-18T05:15:52.973Z",
+    "updatedAt": "2023-11-18T05:15:52.973Z"
+  }
+]

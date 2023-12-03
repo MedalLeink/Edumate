@@ -1,0 +1,152 @@
+.sticky {
+  width: 100%;
+	height: 60px;
+	padding: 5px 2%;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+	z-index: 5000;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: sticky;
+	top: 0;
+  background-color: #261762;
+}
+
+.sticky-left, .sticky-right{
+	display: flex;
+	align-items: center;
+}
+
+.sticky-right ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+.bg-color {
+  background-color: #261762;
+}
+
+.logo-area a {
+  display: flex;
+  text-decoration: none;
+  align-items: flex-end;
+  margin-right: 50px;
+}
+
+.logo-text {
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.logo-text span {
+  color: aqua;
+}
+
+.main_nav a {
+  display: block;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 400;
+	margin-left: 6px;
+}
+
+.main_nav a:hover{
+	display: block;
+	transition: 0.5s;
+}
+
+.nav_menu {
+  color: #fff;
+	font-size: 23px;
+	cursor: pointer;
+	display: none;
+  padding: 5px 10px;
+}
+
+.nav-link:hover {
+  opacity: 0.7;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu ul {
+  list-style: none;
+  padding: unset;
+  margin: unset;
+  color: #261762;
+}
+
+.dropdown-menu a {
+  color: #261762;
+}
+
+.dropdown-menu li:hover {
+  width: 100%;
+  background: #261762;
+  cursor: pointer;
+  color: #fff;
+}
+.dropdown-link li {
+  color: #261762;
+}
+
+.dropdown-items {
+  display: block;
+  padding: 14px;
+  clear: both;
+  font-weight: 400;
+  width: 100%;
+  color: #261762;
+  text-align: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+  transition: all linear 0.3s;
+}
+
+.dropdown-items:hover,
+.dropdown-items:focus {
+  color: #fff;
+}
+
+.userInfo {
+  margin-left: 20px;
+  color: aqua;
+}
+
+/* ------------------ Search Button ------------------ */
+
+.search_btn {
+  background: #fff;
+	border: 1px solid aqua;
+	border-radius: 30px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	overflow-x: hidden;
+}
+
+.s_button {
+  display: inline-block;
+	margin: 0rem 1rem;
+  color: #261762;
+}
+
+.s_button:hover{
+	opacity: 0.5;
+}
+
+.s_button:after{
+	border-radius: 30px;
+}
+
+.search_btn input{
+	height: 100%;
+	padding: .5rem;
+	border: none;
+	outline: none;
+}

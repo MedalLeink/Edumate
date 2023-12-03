@@ -1,0 +1,45 @@
+.input-fields{
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+}
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h3{
+    text-align: center;
+}
+.button{
+    font-size: 1em;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color: #261762;
+    border-radius: 10px;
+}
+.textarea{
+    width: 100%;
+    height: 30vh;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+}
+table{
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+}
+thead{
+    background-color: #261762;
+    color: white;
+    padding: 2em;
+    font-size: 2em;
+    text-align: center;
+}
+tr{
+    padding: 2em;
+}

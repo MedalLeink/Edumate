@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.logo{
+    height: 60px;
+    width: 60px;
+    /* background-color: white; */
+}
+.navbar{
+    justify-content: space-around;
+    background-color: #261762;
+    color: white;
+}
